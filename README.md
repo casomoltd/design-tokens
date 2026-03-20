@@ -1,4 +1,4 @@
-# @casomo/design-tokens
+# @casomoltd/design-tokens
 
 Shared visual design tokens for Casomo products.
 
@@ -23,13 +23,13 @@ Produces:
 **CSS** (web apps):
 
 ```css
-@import '@casomo/design-tokens/css';
+@import '@casomoltd/design-tokens/css';
 ```
 
 **JS/TS**:
 
 ```ts
-import { palette, fonts } from '@casomo/design-tokens';
+import { palette, fonts } from '@casomoltd/design-tokens';
 ```
 
 ## Consumers
