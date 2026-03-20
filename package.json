@@ -1,6 +1,6 @@
 {
   "name": "@casomoltd/design-tokens",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -23,9 +23,12 @@
   ],
   "scripts": {
     "build": "tsc && tsx scripts/build-css.ts",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "prepare": "husky"
   },
   "devDependencies": {
+    "@casomo/tooling": "file:../tooling",
+    "husky": "^9.1.7",
     "tsx": "^4.19.0",
     "typescript": "^5.7.0"
   }
