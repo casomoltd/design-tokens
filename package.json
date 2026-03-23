@@ -23,6 +23,7 @@
   ],
   "scripts": {
     "build": "tsc && tsx scripts/build-css.ts",
+    "check": "npm run build",
     "clean": "rm -rf dist",
     "prepare": "husky"
   },
