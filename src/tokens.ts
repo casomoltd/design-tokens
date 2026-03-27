@@ -36,3 +36,15 @@ export const fonts = {
   sans: 'Inter',
   weights: [400, 500, 600, 700] as const,
 } as const;
+
+export const brandIcon = {
+  viewBox: "0 0 135.467 135.467",
+  size: 135.467,
+  rect: { rx: 18.063 },
+  arrow: {
+    d: "M 27.752,77.13 118.744,77.565 66.064,36.496 67.733,58.482 27.68,58.337 Z",
+    strokeWidth: 10.583,
+    strokeLinecap: "round" as const,
+    strokeLinejoin: "round" as const,
+  },
+} as const;
