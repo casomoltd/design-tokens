@@ -28,7 +28,7 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@casomoltd/tooling": "^0.2.0",
+    "@casomoltd/tooling": "^0.5.16",
     "@commitlint/cli": "^20.0.0",
     "husky": "^9.1.7",
     "tsx": "^4.19.0",
